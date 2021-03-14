@@ -71,7 +71,6 @@ F-statistic: 465.8 on 1 and 23 DF,  p-value: < 2.2e-16
 (Intercept)       Hours 
 2.483673    9.775803 
 >  #What will be the predicted score if a student studies for 9.25 hours a day?
-  >  #y=b1+b2x
   > score<-data.frame(Hours=9.25)
 >  predict(LM,score)
 1 

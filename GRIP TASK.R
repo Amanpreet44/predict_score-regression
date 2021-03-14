@@ -12,7 +12,6 @@ setwd("C:/Users/91958/Desktop")
  abline(LM)
  coef(LM)
  #What will be the predicted score if a student studies for 9.25 hours a day?
- #y=b1+b2x
 score<-data.frame(Hours=9.25)
  predict(LM,score)
  
